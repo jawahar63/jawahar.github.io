@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html style="background-image: linear-gradient(to bottom right, rgb(248, 198, 198), rgb(244, 244, 77));">
+    <head>
+        
+    </head>
+    <style>
+li {
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        p{
+            margin-left: 30px;
+            position: relative;
+        }
+        #a{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 1s;
+        }
+        #b{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 2s;
+        }
+        #c{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 3s;
+        }
+        #d{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 4s;
+        }
+        #e{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 5s;
+        }
+        #f{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 6s;
+        }
+        #f{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 6s;
+        }
+        #g{
+            animation-name: rightflow;
+            animation-duration: 3s;
+            animation-delay: 7s;
+        }
+        @keyframes rightflow {
+            0% {left: -1000px;opacity: 0;}
+            50%{left: 100px;opacity: 0.5;}
+            100%{left: 20px;opacity: 1;}
+        }
+    </style>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="school.html">School</a></li>
+            <li class="dropdown">
+              <a href="friends.html" class="dropbtn">Friends</a>
+              <div class="dropdown-content">
+                <a href="naveen.html">Naveen</a>
+                <a href="dev.html">Dev</a>
+                <a href="Nalin.html">Nalin</a>
+                <a href="hari.html">Hari</a>
+                <a href="shyam.html">shyam</a>
+                <a href="kish.html">Kish</a>
+                <a href="dhamo.html">Dhamo</a>
+                <a href="madhubalan.html">Madhubalan</a>
+              </div>
+            </li>
+            <li><a href="jawahar.html">about</a></li>
+            <li><a href="sclmemo.html">School gallery</a></li>
+          </ul><br>
+        <h1>Personal Details</h1><br>
+        <h2>Jawahar V</h2>
+        <img src="/Jawahar.V.jpg" alt="jawahar" id="jeeva" style="border-radius: 20px;float: left;padding: 10px;;">
+            <p id="a">I am from karur<br><br></p>
+            <p id="b">My number is 7810020911<br><br></p>
+            <p id="c">I want to become data sciencist (or) Ai developor (or) fullstack developor (or) an entrepreneur<br><br></p>
+            <p id="d">I completed my 10<sup>th</sup> and 12<sup>th</sup> with the percentage of 82.2 and 90.3 at holy cross matriculation higher secondary school,trichy<br><br></p>
+            <p id="e">I am pursuing B.tech (Department of Artificial Intelligence & Data Science) at Bannari Amman Institute of Technology<br><br></p>
+            <p id="f">I am intrested in making animation , 3d models, etc...,<br><br></p>
+            <p id="g">I know python,c,c++,java,html,css animation in blender at a basic level,php,mysql<br><br></p>
+    </body>
+</html>
